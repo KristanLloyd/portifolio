@@ -47,7 +47,7 @@ export default function Projects() {
             >
               <div className="relative h-48">
                 <Image
-                  src={project.image || "/placeholder.svg"}
+                  src={project.image}
                   alt={project.title}
                   layout="fill"
                   objectFit="cover"
