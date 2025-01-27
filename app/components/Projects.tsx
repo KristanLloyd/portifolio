@@ -16,7 +16,7 @@ const projects = [
     title: "Web-Based Booking Management",
     description:
       "A web-based booking management system streamlines scheduling and reservations through an intuitive online Platform",
-    image:"/elbriza.png?height=300&width=400",
+    image:"/elbriza.PNG?height=300&width=400",
     tags: ["PHP", "MySQL", "JavaScript"],
     link: "https://bclma.io/elbriza/",
   },
