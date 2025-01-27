@@ -7,8 +7,8 @@ const projects = [
   {
     title: "Eco-Track Garbage Truck Tracking",
     description:
-      "innovative solution designed to transform waste management through real-time tracking. (ongoing Project no link provided)",
-    image: "/ecotrack.jpg",
+      "Innovative solution designed to transform waste management through real-time tracking. (ongoing Project no link provided)",
+    image: "public/ecotrack.jpg",
     tags: ["ReactJS/Native", "JavaScript", "Firebase Database", "ESP32 & A7 GPS/GSM"],
     link: "#",
   },
@@ -16,15 +16,15 @@ const projects = [
     title: "Web-Based Booking Management",
     description:
       "A web-based booking management system streamlines scheduling and reservations through an intuitive online Platform",
-    image:"/elbriza.PNG",
+    image: "public/elbriza.PNG",
     tags: ["PHP", "MySQL", "JavaScript"],
     link: "https://bclma.io/elbriza/",
   },
   {
     title: "Reminder App",
     description:
-      "a feature-rich Android application using Android Studio to improve task management and scheduling",
-    image: "/reminder.jpg",
+      "A feature-rich Android application using Android Studio to improve task management and scheduling",
+    image: "public/reminder.jpg",
     tags: ["Java", "MySQL", "XML"],
     link: "#",
   },
@@ -49,10 +49,9 @@ export default function Projects() {
                 <Image
                   src={project.image}
                   alt={project.title}
-                  layout="fill"
-                  objectFit="cover"
+                  fill
+                  style={{ objectFit: "cover", opacity: hoveredIndex === index ? 0.3 : 1 }}
                   className="transition-opacity duration-300"
-                  style={{ opacity: hoveredIndex === index ? 0.3 : 1 }}
                 />
                 {hoveredIndex === index && (
                   <div className="absolute inset-0 flex items-center justify-center p-4">
@@ -85,4 +84,3 @@ export default function Projects() {
     </section>
   )
 }
-
