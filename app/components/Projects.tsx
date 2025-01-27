@@ -8,7 +8,7 @@ const projects = [
     title: "Eco-Track Garbage Truck Tracking",
     description:
       "innovative solution designed to transform waste management through real-time tracking. (ongoing Project no link provided)",
-    image: "images//ecotrack.jpg?height=300&width=400",
+    image: "images/ecotrack.jpg?height=300&width=400",
     tags: ["ReactJS/Native", "JavaScript", "Firebase Database", "ESP32 & A7 GPS/GSM"],
     link: "#",
   },
@@ -16,7 +16,7 @@ const projects = [
     title: "Web-Based Booking Management",
     description:
       "A web-based booking management system streamlines scheduling and reservations through an intuitive online Platform",
-    image:"images/elbriza.PNG?height=300&width=400",
+    image:"images/ecotrack.jpg?height=300&width=400",
     tags: ["PHP", "MySQL", "JavaScript"],
     link: "https://bclma.io/elbriza/",
   },
@@ -24,7 +24,7 @@ const projects = [
     title: "Reminder App",
     description:
       "a feature-rich Android application using Android Studio to improve task management and scheduling",
-    image: "images//reminder.jpg?height=300&width=400",
+    image: "images/reminder.jpg?height=300&width=400",
     tags: ["Java", "MySQL", "XML"],
     link: "#",
   },
